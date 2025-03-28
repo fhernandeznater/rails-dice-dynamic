@@ -1,5 +1,5 @@
-class RollController < ActionController
+class RollController < ApplicationController
   def home
-    render({ :template => "roll_templates/main" })
+    render({ :template => "roll_templates/home" })
   end
 end

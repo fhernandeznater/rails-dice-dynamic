@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
 
-  get("/", { :controller => "roll", :action => "main"})
+  get("/", { :controller => "roll", :action => "home"})
 
 end
